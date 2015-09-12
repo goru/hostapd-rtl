@@ -1,0 +1,6 @@
+[submodule "src"]
+	path = src
+	url = https://github.com/seba-z/hostapd-rtl.git
+[submodule "patches/archlinux"]
+	path = patches/archlinux
+	url = https://aur.archlinux.org/hostapd-rtl.git
