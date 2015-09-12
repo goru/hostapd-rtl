@@ -1,0 +1,14 @@
+diff --git a/hostapd/hostapd.conf b/hostapd/hostapd.conf
+index 957f470..e6152ea 100644
+--- a/hostapd/hostapd.conf
++++ b/hostapd/hostapd.conf
+@@ -465,6 +465,9 @@ wmm_ac_vo_acm=0
+ # Note: You will also need to enable WMM for full HT functionality.
+ ieee80211n=1
+ 
++# Please see patches/archlinux/hostapd-2.3-noscan.patch
++#noscan=1
++
+ # ht_capab: HT capabilities (list of flags)
+ # LDPC coding capability: [LDPC] = supported
+ # Supported channel width set: [HT40-] = both 20 MHz and 40 MHz with secondary
