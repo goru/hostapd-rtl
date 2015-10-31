@@ -13,6 +13,7 @@ build:
 	
 	# apply misc patches
 	patch -d src -p1 -i "../patches/noscan-config.patch"
+	patch -d src -p1 -i "../patches/WN-G300UA_config.patch"
 	
 	# make
 	make -C src/hostapd
